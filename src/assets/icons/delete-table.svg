@@ -1,0 +1,41 @@
+var _path, _path2, _path3, _path4, _path5;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgDeleteTable(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    className: "icon icon-tabler icons-tabler-outline icon-tabler-table-off",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    stroke: "none",
+    d: "M0 0h24v24H0z",
+    fill: "none"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M7 3h12a2 2 0 0 1 2 2v12m-.585 3.413a1.994 1.994 0 0 1 -1.415 .587h-14a2 2 0 0 1 -2 -2v-14c0 -.55 .223 -1.05 .583 -1.412"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M3 10h7m4 0h7"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M10 3v3m0 4v11"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M3 3l18 18"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDeleteTable);
+export default __webpack_public_path__ + "static/media/delete-table.583732304a3065c03a0027072711b688.svg";
+export { ForwardRef as ReactComponent };

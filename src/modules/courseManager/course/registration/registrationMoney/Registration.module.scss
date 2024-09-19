@@ -1,0 +1,36 @@
+.customCheckbox {
+    :global .ant-form-item-label {
+        display: flex !important;
+        width: 200px !important;
+        padding: 0 !important;
+    }
+    :global .ant-form-item-row {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+    }
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    .studentName{
+        margin-top: 10px;
+    }
+}
+.green-check-icon {
+    color: green;
+    font-size: 18px;
+}
+.group-total{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    justify-content: end;
+}
+.total-item{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}

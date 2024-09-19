@@ -1,0 +1,16 @@
+@import "@assets/scss/global";
+.customCheckbox {
+    :global .ant-form-item-label {
+        display: flex !important;
+        width: 200px !important;
+        padding: 0 !important;
+    }
+    :global .ant-form-item-row {
+        flex-direction: row-reverse !important;
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+  }
+.action-bar {
+    text-align: right;
+}

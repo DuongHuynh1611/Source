@@ -1,0 +1,18 @@
+.disableSearch{
+    :global .ant-form-item{
+        margin: 0;
+    }
+    button{
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.custum-div{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(24, 144, 255);
+    &:hover {
+      text-decoration: underline;
+    }
+}
